@@ -5,7 +5,6 @@
     --black:#130f40;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
-    --border:.2rem solid rgba(0,0,0,.1);
     --outline:.1rem solid rgba(0,0,0,.1);
     --outline-hover:.2rem solid var(--black);
 }
@@ -58,8 +57,14 @@ body{
     clip-path: polygon(100% 0%, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
-/********* Global section ends***************/
+.p_font_large{
+    font-size: 1.7rem;
+ }
+.p_font_small{
+    font-size: 1.5rem;
+}
 
+/********* Global section ends***************/
 
 
 .header{
@@ -160,7 +165,7 @@ body{
     transform: translateY(-50%);
 }
 .header .shopping-cart .box .fa-trash:hover{
-    color:var(--orange);
+    color: #f00;
 }
 .header .shopping-cart .box .content h3{
     color:var(--black);
@@ -208,9 +213,9 @@ body{
     color:var(--black);
     text-transform: none;
     width: 100%;
-    margin:.7rem 0;
+    margin: 0.7rem 0;
     background:#eee;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
 .header .login-form h3{
     font-size: 2.5rem;
@@ -241,7 +246,7 @@ body{
 }
 .home .content{
     text-align: center;
-    max-width:60rem;
+    max-width: 60rem;
 }
 .home .content h3{
     color:var(--black);
@@ -250,10 +255,8 @@ body{
 .home .content h3 span{
     color:var(--orange);
 }
-
 .home .content p{
     color:var(--light-color);
-    font-size: 1.7rem;
     padding:1.2rem 0;
 }
 
@@ -270,11 +273,9 @@ body{
 }
 .features .box-container .box h3{
     font-size: 2.5rem;
-    line-height: 1.8;
     color:var(--black);
 }
 .features .box-container .box p{
-    font-size: 1.5rem;
     line-height: 1.8;
     color:var(--light-color);
     padding: 1rem 0;
@@ -292,13 +293,13 @@ body{
 .review .review-slider .box,
 .blogs .box-container .box{
     background: #fff;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     text-align: center;
-    padding:3rem 2rem;
+    padding: 3rem 2rem;
     outline-offset: -1rem;
     outline: var(--outline);  
     box-shadow: var(--box-shadow);
-    transition: .2s linear;
+    transition: 0.2s linear;
 }
 .products .product-slider .box:hover,
 .categories .box-container .box:hover,
@@ -306,7 +307,6 @@ body{
 .features .box-container .box:hover,
 .blogs .box-container .box:hover{
     outline-offset: 0rem;
-    outline: var(--outline-hover);
 }
 .products .product-slider .box img{
     height:20rem;
@@ -343,7 +343,6 @@ body{
    line-height: 1.8;
 }
 .categories .box-container .box p{
-    font-size: 1.7rem;
     color:var(--light-color);
     line-height: 1.8;
     padding:1rem 0;
@@ -359,7 +358,6 @@ body{
     padding:1rem 0;
     line-height: 1.8;
     color:var(--light-color);
-    font-size: 1.5rem;
 }
 .review .review-slider .box h3{
     padding-bottom: .5rem;
@@ -379,7 +377,7 @@ body{
 }
 .blogs .box-container .box{
     overflow: hidden;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
     background:#fff;
 }
@@ -400,7 +398,6 @@ body{
 .blogs .box-container .box .content p{
     line-height: 1.8;
     color:var(--light-color);
-    font-size: 1.5rem;
     padding:.5rem 0;
 }
 .blogs .box-container .box .content .icons a{
@@ -436,7 +433,6 @@ body{
 }
 .footer .box-container .box p{
     line-height: 1.8;
-    font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
 }
